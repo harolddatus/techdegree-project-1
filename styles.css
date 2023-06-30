@@ -88,6 +88,11 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+
+.title_experience {
+  background-color: #ff9b04b7;
+  color: white;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -95,11 +100,26 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
   transition: all .5s;
+  border-radius: 6px;
 }
+
 .card:hover {
   border-color: #ff99ff;
+}
+
+.experience_card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  transition: all .5s;
+  border-radius: 6px;
+}
+.experience_card:hover {
+  border-color: #0399ff;
 }
 
 ul.skills {
